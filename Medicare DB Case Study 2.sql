@@ -170,7 +170,7 @@ ON MEDS.VisitId = VISITS.VisitId
 
 /*
 4.	List the distinct set of medications taken in the study. 
--- Beware ñ this is not as trivial as it looks. Extra credit for being careful.
+-- Beware ‚Äì this is not as trivial as it looks. Extra credit for being careful.
 */
 
 Select distinct Med from AES where len(Med) > 0 
@@ -186,7 +186,7 @@ Select distinct Med from MEDS ;
 
 
 /*
-5.	List the average systolic blood pressure (Sys) for all patients who ever had an adverse event of ìHigh BPî
+5.	List the average systolic blood pressure (Sys) for all patients who ever had an adverse event of ‚ÄúHigh BP‚Äù
 */
 
 Select avg(Systolic)
@@ -218,8 +218,6 @@ where PatientNo in
 
 
 
--- ATTENDEES FOR T-SQL PLAN A, BI COURSES	:  YOU SHALL BE GIVEN ADDITIONAL LIST OF QUERIES FOR PRACTICE
--- ATTENDEES FOR T-SQL PLAN B				:  YOU SHALL USE THESE QUERIES FOR PROGRAMMING CONCPETS NEXT. 
--- ATTENDEES FOR SQL DBA					:  YOU SHALL GIVE TUNING RECOMMENDATIONS FOR EACH OF THE ABVOE QUERY.
+
 
 
